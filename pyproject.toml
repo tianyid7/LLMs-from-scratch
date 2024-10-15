@@ -16,6 +16,7 @@ tqdm = "^4.66.1"        # ch05; ch07
 numpy = "^1.25"  # dependency of several other libraries like torch and pandas
 pandas = "^2.2.1"       # ch06
 psutil = "^5.9.5"     # ch07; already installed automatically as dependency of torch
+jupyter-contrib-nbextensions = "0.7.0"
 
 [build-system]
 requires = ["poetry-core"]
