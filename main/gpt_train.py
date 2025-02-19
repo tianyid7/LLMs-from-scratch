@@ -11,7 +11,7 @@ import tiktoken
 
 
 # Import from local files
-from previous_chapters import GPTModel, create_dataloader_v1, generate_text_simple
+from gpt import GPTModel, create_dataloader_v1, generate_text_simple
 
 
 def text_to_token_ids(text, tokenizer):
